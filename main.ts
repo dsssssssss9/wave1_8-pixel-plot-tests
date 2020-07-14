@@ -7,8 +7,8 @@ input.onButtonPressed(Button.A, function () {
         LCD1IN8.Get_Color(LCD_COLOR.BLUE),
         DOT_PIXEL.DOT_PIXEL_1
         )
-        LCD1IN8.LCD_Display()
     }
+    LCD1IN8.LCD_Display()
 })
 let Ycord = 0
 let Xcord = 0
