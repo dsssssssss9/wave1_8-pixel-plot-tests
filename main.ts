@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     for (let index = 0; index <= 160; index++) {
-        Ycord = index
+        Xcord = index
         LCD1IN8.DrawPoint(
         Xcord,
         64,
@@ -14,11 +14,10 @@ input.onGesture(Gesture.Shake, function () {
     LCD1IN8.LCD_Clear()
     LCD1IN8.LCD_Display()
 })
-let Ycord = 0
 let Xcord = 0
 let lite = 32
 Xcord = 1
-Ycord = 1
+let Ycord = 1
 LCD1IN8.LCD_Init()
 LCD1IN8.LCD_Clear()
 LCD1IN8.LCD_Display()
