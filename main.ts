@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
         Xcord = index
         LCD1IN8.DrawPoint(
         Xcord,
-        64,
+        Ycord,
         LCD1IN8.Get_Color(LCD_COLOR.BLUE),
         DOT_PIXEL.DOT_PIXEL_1
         )
