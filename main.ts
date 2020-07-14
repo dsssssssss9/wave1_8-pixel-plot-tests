@@ -7,8 +7,8 @@ input.onButtonPressed(Button.A, function () {
         LCD1IN8.Get_Color(LCD_COLOR.BLUE),
         DOT_PIXEL.DOT_PIXEL_1
         )
-        LCD1IN8.LCD_Display()
     }
+    LCD1IN8.LCD_Display()
 })
 input.onGesture(Gesture.Shake, function () {
     LCD1IN8.LCD_Clear()
