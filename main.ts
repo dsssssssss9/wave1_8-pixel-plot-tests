@@ -1,4 +1,6 @@
-let lite = 0
+let lite = 32
+let Xcord = 1
+let Ycord = 1
 LCD1IN8.LCD_Init()
 LCD1IN8.LCD_Clear()
 LCD1IN8.LCD_Display()
