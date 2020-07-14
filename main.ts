@@ -3,7 +3,7 @@ input.onButtonPressed(Button.A, function () {
         Xcord = index
         LCD1IN8.DrawPoint(
         Xcord,
-        64,
+        randint(1, 128),
         LCD1IN8.Get_Color(LCD_COLOR.BLUE),
         DOT_PIXEL.DOT_PIXEL_1
         )
@@ -15,7 +15,7 @@ input.onGesture(Gesture.Shake, function () {
     LCD1IN8.LCD_Display()
 })
 let Xcord = 0
-let lite = 32
+let lite = 9
 Xcord = 1
 let Ycord = 1
 LCD1IN8.LCD_Init()
